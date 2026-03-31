@@ -172,6 +172,38 @@ jobs:
 
 ---
 
+## Hoe wordt het gebruikt na de hackathon?
+
+### 🚀 Direct inzetbaar
+- **Kopieer de `.github/` map** naar een bestaande repo → werkt bij de volgende PR
+- Begin met de standaard bestanden en **verfijn ze onderweg**
+- Geen installatie, geen licentie, geen apart account
+
+### 👨‍💻 Dagelijks gebruik
+- Elke PR krijgt een **automatische eerste review** voordat een mens ernaar kijkt
+- De menselijke reviewer focust op wat de AI **flagde of miste** — niet op basis-checks
+- **Junior developers** krijgen direct gedetailleerde feedback, zonder te wachten op een senior
+- Kleine hotfixes die normaal **geen review krijgen** worden toch gecheckt
+
+### 🧠 Levende kennisbank
+- Na elk incident: notitie in `incident-history.md` → **les permanent geborgd**
+- Security Officer past een regel aan → **geldt direct voor het hele team**, zonder meeting
+- Het systeem wordt **slimmer naarmate het team meer toevoegt**
+
+### 🎓 Onboarding
+- Nieuwe developers krijgen vanaf dag één feedback die de **echte standaarden en geschiedenis** van het team weerspiegelt
+- Geen shadow-sessies nodig voor basis codekwaliteit
+
+### 📋 Compliance & auditing
+- Elk reviewcommentaar staat **permanent op de PR** — aantoonbaar dat checks zijn uitgevoerd
+- Waardevol bij **ISO, SOC2 of interne audits**
+
+### 🏢 Schalen over meerdere repo's
+- Dezelfde `.github/reviewer/` map herbruikbaar in **alle repositories van de organisatie**
+- Teamkennis wordt een **gedeelde standaard** in plaats van iets dat per project opnieuw wordt uitgevonden
+
+---
+
 ## Samenvatting
 
 > Copilot is de motor. **Het team is de hersenen.**
